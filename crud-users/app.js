@@ -21,6 +21,18 @@ mongoose.connect(process.env.MONGO_URL)
 .catch(err=>console.log(err.message))
 
 
+// const dotenv = require('dotenv')
+// const mongoose = require('mongoose')
+// dotenv.config()
+//    module.exports = mongoose.connect(process.env.DB_CONNECT, { useNewUrlParser: true })
+//    .then(() => console.log('Connected to db'))
+//    .catch(error => console.log({message.error})) 
+
+
+
+
+
+
 app.use('/api', routerUsers);
 
 

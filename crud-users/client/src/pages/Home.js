@@ -57,7 +57,7 @@ function Home() {
     await axios.get("/api/users").then((res) => {
       setUsers(res.data);
     });
-  });
+  } ,[]);
   return (
     <div className="row p-4">
       <Alert message={message} show={show}/>

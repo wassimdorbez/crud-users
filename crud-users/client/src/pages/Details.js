@@ -45,20 +45,20 @@ function Details() {
             value={form.Email}
           />
           <InputGroup
-            label="Lastname"
+            label="LastName"
             type="text"
-            name="Lastname"
+            name="LastName"
             onChangeHandler={onChangeHandler}
-            errors={errors.Lastname}
-            value={form.Lastname}
+            errors={errors.LastName}
+            value={form.LastName}
           />
           <InputGroup
-            label="Firstname"
+            label="FirstName"
             type="text"
-            name="Firstname"
+            name="FirstName"
             onChangeHandler={onChangeHandler}
-            errors={errors.Firstname}
-            value={form.Firstname}
+            errors={errors.FirstName}
+            value={form.FirstName}
           />
           <InputGroup
             label="Age"
